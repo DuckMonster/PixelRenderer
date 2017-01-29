@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7cebc081-4279-4753-90be-5dbdea771341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{e296396d-c929-474e-a9cd-e851a08a50ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GFX">
+      <UniqueIdentifier>{14db3c02-7f2c-430f-bdef-01a792c09a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{a7841cc9-9748-47ae-8221-d979b592f160}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dirlight.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="program.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="colorutils.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="objloader.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="fbuffer.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="shadowbuffer.h">
+      <Filter>Source\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="gbuffer.h">
+      <Filter>Source\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="lightpass.h">
+      <Filter>Source\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneobject.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Source\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="occlusionpass.h">
+      <Filter>Source\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="blur.h">
+      <Filter>Source\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="bloom.h">
+      <Filter>Source\GFX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dirlight.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="program.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="objloader.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="fbuffer.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="shadowbuffer.cpp">
+      <Filter>Source\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="gbuffer.cpp">
+      <Filter>Source\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="lightpass.cpp">
+      <Filter>Source\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneobject.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="occlusionpass.cpp">
+      <Filter>Source\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="blur.cpp">
+      <Filter>Source\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="bloom.cpp">
+      <Filter>Source\GFX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shdr_light.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_light.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_default.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_default.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_depth.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_depth.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_deferred.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_deferred.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_light_d.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_light_d.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_deferred_test.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_deferred_test.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_shadow.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_shadow.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_ssao.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_ssao.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_blur.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_blur.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_bloom.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_bloom.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_apply.vert">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shdr_apply.frag">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
